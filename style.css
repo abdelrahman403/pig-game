@@ -157,5 +157,23 @@ button,button:hover,button:focus {
 .wrapper .btn:hover .icon { margin-right: 14px; }
 
 
+.footer-area {
+	position: absolute;
+	bottom: 25px;
+	color: #333;
+	left: 50%;
+	transform: translate(-50%, 0);
+	font-weight: 700;
+	letter-spacing: 0.4px;
+	/* opacity: .8; */
+	text-transform: capitalize;
+}
+.footer-area a {
+	text-decoration: none;
+	color: inherit;
+	transition: .3s;
+}
+.footer-area a:hover { letter-spacing: 1px; color: #111; }
+
 
 
